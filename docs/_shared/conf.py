@@ -2,7 +2,7 @@
 import io
 import os
 import sys
-from path import Path
+from os import Path
 
 
 def common_setup(app):

@@ -19,9 +19,6 @@ Version 2016.01.27
 Commits
 ~~~~~~~
 
-..  git_changelog::
-    :rev-list: e4d1a90..105ef26
-
 
 ..  _2015.12.18:
 
@@ -36,9 +33,6 @@ was done to prepare for the expansion of the WOPI REST API that will come in a f
 
 Commits
 ~~~~~~~
-
-..  git_changelog::
-    :rev-list: b624ab9..c6a8b86
 
 
 ..  _2015.08.03:
@@ -61,5 +55,3 @@ editing>` for business users.
 Commits
 ~~~~~~~
 
-..  git_changelog::
-    :rev-list: 918ef79..6771d9a

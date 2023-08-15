@@ -17,19 +17,19 @@ def setup(app):
 
 
 # Add WOPI doc module path to the system path for module imports
-sys.path.insert(0, Path('../_wopi_sphinx/').abspath())
+sys.path.insert(0, Path('../../_wopi_sphinx/').abspath())
 
 # Path setup
-shared_content_path = Path('../_shared/').abspath()
-native_doc_path = Path('../native/').abspath()
-officeonline_doc_path = Path('../online/').abspath()
-rest_doc_path = Path('../rest/').abspath()
+shared_content_path = Path('../../_shared/').abspath()
+native_doc_path = Path('../../native/').abspath()
+officeonline_doc_path = Path('../../online/').abspath()
+rest_doc_path = Path('../../rest/').abspath()
 
 local_object_inventory_path = 'build/html/objects.inv'
 rtd_object_inventory_path = 'en/latest/objects.inv'
 
-html_static_path = [Path('../_static/').abspath()]
-html_extra_path = [Path('../_extra/').abspath()]
+html_static_path = [Path('../../_static/').abspath()]
+html_extra_path = [Path('../../_extra/').abspath()]
 
 # -- General configuration -----------------------------------------------------
 
